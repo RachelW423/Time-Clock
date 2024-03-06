@@ -18,6 +18,9 @@ body #container .length-control {
   width: 250px;
 }
 body #container button {
+  background: none;
+  outline: none;
+  border: none;
   color: #010c0d;
   cursor: pointer;
 }
@@ -53,4 +56,13 @@ body #container .timer #time-left {
 }
 body #container .timer .timer-control button:active {
   color: #010c0d;
+}
+@media screen and (max-width: 500px) {
+  #container {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
 }
